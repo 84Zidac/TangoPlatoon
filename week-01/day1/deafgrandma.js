@@ -8,7 +8,7 @@ while (goodbye < 1){
   console.log("WHAT?!");
   kid = prompt();
   }
-  else if(kid == 'GOODBYE!' && goodbye < 1){
+  else if (kid == 'GOODBYE!' && goodbye < 1){
     console.log('LEAVING SO SOON?');
     goodbye += 1;
     kid = prompt();

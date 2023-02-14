@@ -1,4 +1,4 @@
 name, age, breed
-fido, 4, husky
-barker, 7, corgi
-curly, 2, poodle
+fido, 4, husky, True
+barker, 7, corgi, True
+curly, 2, poodle, True

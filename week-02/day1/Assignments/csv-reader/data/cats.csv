@@ -1,4 +1,4 @@
 name, age, breed
-loki, 6, shorthair
-shadow, 3, siamese
-garfield, 2, ocelot
+loki, 6, shorthair, True
+shadow, 3, siamese, True
+garfield, 2, ocelot, True

@@ -1,0 +1,11 @@
+{
+  "name": "algo-pig-latin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pigLatin.js",
+  "type": "module",
+  "scripts": {
+  },
+  "author": "",
+  "license": "ISC"
+}

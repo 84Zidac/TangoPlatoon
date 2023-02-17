@@ -11,7 +11,7 @@ class Student(Person):
     @staticmethod  
     def all_students():
       student_obj_list = []
-      with open('week-02/day3/Assignments/oop-school-interface-i/data/students.csv') as csv_file:
+      with open('../data/students.csv') as csv_file:
         csv_reader = csv.DictReader(csv_file)
         for row in csv_reader:
           student_obj_list.append(Student(**row))

@@ -2,6 +2,7 @@ import csv
 import os.path
 from classes.person import Person
 
+
 class Staff(Person):
 
     def __init__(self, name, age, password, role, employee_id):

@@ -101,7 +101,7 @@
 #     def circle_area(r):
 #         return r ** 2 * math.pi
 
-#     @classmethod
+#     @classmethod # same as static but sends out all properties of class
 #     def margherita(cls, rad):
 #         return cls(rad, ['mozzarella', 'tomatoes'])
 

@@ -17,8 +17,9 @@ class LinkList:
         self.length += 1
 
     def remove(self, data):
-        if self.head == data:
+        if self.head.value == data:
             self.head = self.head.next
+            self.length -= 1
             return
         itr = self.head
         while itr:
@@ -40,7 +41,7 @@ class LinkList:
         while i < element_to_get:
             itr = itr.next
             i += 1
-        return itr.value.value
+        return itr.value
 
 # ----- Node ------
 
@@ -53,15 +54,20 @@ class Node:
 
 
 
-a = Node(23)
-b = Node(78)
-c = Node(46)
+
 
 a_linked_list = LinkList()
-a_linked_list.add(a)
-a_linked_list.add(b)
-a_linked_list.add(c)
-print(a_linked_list.get(2))
+a_linked_list.add(1)
+a_linked_list.add(2)
+a_linked_list.add(3)
+a_linked_list.add(4)
+a_linked_list.add(5)
+a_linked_list.add(6)
+
+
+print(a_linked_list.get(6))
+a_linked_list.remove(6)
+print(a_linked_list.get(5))
 
 
 

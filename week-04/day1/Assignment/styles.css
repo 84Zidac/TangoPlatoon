@@ -1,0 +1,122 @@
+.section {
+    display:flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    color:red;
+    font-size: larger;
+
+}
+img{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: auto;
+}
+a{
+    font-size: 19px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+figcaption{
+    width:auto;
+    height:auto;
+}
+
+.picture{
+    border-width: 10px;
+    border-color: rgb(145, 140, 222);
+    border-style: groove;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+figure{
+    display: flex;
+    flex-flow: wrap;
+    align-content: stretch;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+}
+span{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+h1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+h1 {
+      
+    font-family: futura;
+    font-style: italic;
+    color:#313131;
+    font-weight: bold;
+    -webkit-animation:colorchange 20s infinite alternate;
+
+  }
+
+  @-webkit-keyframes colorchange {
+    0% {
+      
+      color: blue;
+    }
+    
+    10% {
+      
+      color: #8e44ad;
+    }
+    
+    20% {
+      
+      color: #1abc9c;
+    }
+    
+    30% {
+      
+      color: #d35400;
+    }
+    
+    40% {
+      
+      color: blue;
+    }
+    
+    50% {
+      
+      color: #34495e;
+    }
+    
+    60% {
+      
+      color: blue;
+    }
+    
+    70% {
+      
+      color: #2980b9;
+    }
+    80% {
+   
+      color: #f1c40f;
+    }
+    
+    90% {
+   
+      color: #2980b9;
+    }
+    
+    100% {
+      
+      color: pink;
+    }
+  }

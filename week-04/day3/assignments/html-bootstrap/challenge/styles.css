@@ -1,0 +1,51 @@
+.navbar{
+    background-color: rgb(27, 27, 27);
+    color:rgb(189, 83, 57);
+}
+.nav-link{
+    color:rgb(189, 83, 57);
+    font-weight: bold;
+}
+.navbar-brand{
+    color: white;
+}
+.form-control{
+    background-color: rgb(68, 68, 68);
+    color:rgb(80, 80, 80);
+    border:3px solid rgb(27, 27, 27)
+}
+.btn{
+    background-color: rgb(189, 83, 57);
+    border: 1px solid rgb(27, 27, 27);
+    
+    
+}
+.stats{
+    margin-left: 5px;
+    font-size: 50%;
+    text-decoration: underline dotted;
+}
+svg{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.nav-link:hover{
+    color:white;
+}
+
+.btn:hover{
+    background-color: rgb(193, 93, 67);
+    color: rgb(204, 132, 112);
+    border: 1px solid rgb(27, 27, 27);
+
+}
+li {
+    list-style-type: none;
+}
+.btn-warning{
+    background-color: rgb(246, 200, 70);
+    color:rgb(98, 16, 42);
+    margin-left: 10px;
+    border-left: 4px solid rgb(27, 27, 27);
+
+}

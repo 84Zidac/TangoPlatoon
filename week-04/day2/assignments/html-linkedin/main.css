@@ -1,0 +1,81 @@
+/* write styles here */
+
+*{
+    background-color: rgb(241, 240, 237);
+}
+header{
+    background-color: white;
+    display: flex;
+    flex-flow:row nowrap;
+    align-content:space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-height: 60px;
+}
+.button_search{
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    align-content: flex-start;
+}
+
+.navbuttons {
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: baseline;
+}
+.main-view{
+    display:flex;
+    background-color: white;
+    height:fit-content;
+    width:fit-content;
+    flex-direction: column;
+    align-items: baseline;
+    align-content: stretch;
+    border:1px groove rgba(255, 255, 255, 0.894);
+    border-radius: 1%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 20px;
+}
+div.navbuttons{
+    background-color: white;
+    margin-right:10%
+}
+#workbutton{
+    padding-left: 20px;
+}
+div.info{
+    display: flex;
+    flex-direction: column;
+}
+.profilepic{
+    border-radius: 2%;
+}
+span{
+    background: white;
+    padding-left: 10px
+}
+#name{
+    font-size: 30px;
+}
+#dutytitle{
+    font-size: 20px;
+}
+#location{
+    color: dimgrey;
+}
+#connections{
+    color: blue
+}

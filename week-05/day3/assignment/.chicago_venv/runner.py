@@ -25,7 +25,7 @@ question6 = ("SELECT first_name, COUNT(first_name) AS times_found FROM employees
 question7 = ("SELECT last_name, COUNT(last_name) AS times_found FROM employees GROUP BY last_name ORDER BY times_found DESC LIMIT 1;")
 question8 = ("SELECT first_name, last_name, job_title, department, annual_salary FROM employees WHERE (first_name, last_name) IN (SELECT first_name, last_name FROM employees GROUP BY first_name, last_name HAVING count(*)>1) ORDER BY first_name, last_name;")
 
-# questions(question1)
+questions(question1)
 # questions(question2)
 # questions(question3)
 # questions(question4)

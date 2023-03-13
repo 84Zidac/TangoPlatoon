@@ -1,0 +1,13 @@
+<h1>List of Staff </h1>
+<h2>Name</h2>
+
+<ul>
+  {% for name in question.choices %}
+  <li>
+    {{ choice.choice_text }} -- {{ choice.votes }} vote{{ choice.votes|pluralize
+    }}
+  </li>
+  {% endfor %}
+</ul>
+
+<a href="/polls/{{ question.id }}/">Vote again?</a>

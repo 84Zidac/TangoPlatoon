@@ -1,0 +1,8 @@
+{% extends 'pages/home.html' %}
+{% block content %}
+    <form method="post" action='item/'>
+        {% csrf_token %}
+        <input type="text" name ='item'/>
+        <input type="submit" value = 'look'/>
+    </form>
+{%endblock content %}

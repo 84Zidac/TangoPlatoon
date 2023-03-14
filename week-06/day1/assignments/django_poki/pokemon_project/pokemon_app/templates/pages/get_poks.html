@@ -1,0 +1,14 @@
+{% extends 'pages/home.html' %}
+{% block content %}
+<form method="POST" action=''>
+    {% csrf_token %}
+    <input type="text" name ='input_pokemon'/>
+    <input type="submit" value = 'submit'/>
+</form>
+    <img src="{{poki_img_1}}" height="300px">
+    <img src="{{poki_img_2}}" height="300px">
+    <img src="{{poki_img_3}}" height="300px">
+    <img src="{{poki_img_4}}" height="300px">
+    <img src="{{poki_img_5}}" height="300px">
+
+{%endblock content %}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>School Roster</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{% static 'css/index.css' %}" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="{% static 'js/index.js' %}"></script>
+  </head>
+  <body>
+    <h1>School Roster</h1>
+
+    <form onsubmit="createAStudent(event)">
+      <input id="name" type="text" />
+      <input id="email" type="email" />
+      <input type="submit" value="Add Student" />
+    </form>
+
+    <ul id="studentHolder">
+      {% for student in students %}
+      <li>{{student.name}} - {{student.email}}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>

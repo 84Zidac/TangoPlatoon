@@ -1,0 +1,20 @@
+[
+    {
+        "model": "school_roster_app.student",
+        "pk": 1, 
+        "fields": {
+            "name": "Jon", 
+            "email": "jon@gmail.com", 
+            "age": 10, 
+            "address": "unknown"
+        }
+    },
+    {
+        "model": "school_roster_app.student",
+        "pk": 2,
+        "fields": {
+            "name": "Francisco",
+            "email": "francisco@gmail.com"
+        }
+    }
+]

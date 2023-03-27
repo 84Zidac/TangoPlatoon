@@ -1,0 +1,11 @@
+{% extends 'pages/layout.html' %}
+
+{% block content %}
+<h1>Sign In</h1>
+<form onsubmit="signIn(event)">
+    <input id = 'email' type='email' />
+    <input id = 'password' type ='password'/>
+    <input type = "submit" />
+</form>
+
+{% endblock content %}

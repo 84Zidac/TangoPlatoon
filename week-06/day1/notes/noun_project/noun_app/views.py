@@ -21,7 +21,7 @@ def item(request):
     response = requests.get(endpoint, auth=auth)
     response_content = json.loads(response.content)
     item_img = response_content['icon']['preview_url']
-    # pp.pprint(item_img)
+    pp.pprint(item_img)
     data ={
         'item_title' : item_title,
         'img' : item_img

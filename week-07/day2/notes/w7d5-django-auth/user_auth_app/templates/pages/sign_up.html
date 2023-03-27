@@ -1,0 +1,12 @@
+{% extends 'pages/layout.html' %}
+
+{% block content %}
+<h1>Sign Up</h1>
+<form onsubmit="signUp(event)">
+    <input id = 'email' type='email'  />
+    <input id = 'name' />
+    <input id = 'password' type ='password'/>
+    <input type = "submit" />
+</form>
+
+{% endblock content %}

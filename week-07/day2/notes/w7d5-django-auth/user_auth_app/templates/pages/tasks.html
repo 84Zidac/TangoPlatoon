@@ -1,0 +1,17 @@
+{% extends 'pages/layout.html' %}
+
+{% block content %}
+<h1>Tasks</h1>
+<form onsubmit="createTask(event)">
+    <input id = 'title' />
+    <textarea id = 'description'>
+    </textarea>
+    <input type="submit"/>
+</form>
+<ul>
+{% for task in tasks %}
+    <li>{{task.title}}</li>
+{% endfor %}
+</ul>
+{% endblock content %}
+

@@ -1,0 +1,57 @@
+#app_root {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    border: 3px dotted black;
+    margin: 1%;
+}
+
+main {
+    min-height: 800px;
+}
+
+footer {
+    text-align: center;
+    background-color: red;
+}
+
+.title_container {
+    border: 3px solid black;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.inventory_item {
+    width:15em ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.item_title {
+    height: 1em;
+}
+
+.item_actions {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.btn{
+    background-color: blue;
+
+}
+h3{
+    font-size: 20px;
+}
